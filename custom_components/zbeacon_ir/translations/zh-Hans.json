@@ -1,0 +1,31 @@
+{
+	"config": {
+		"step": {
+		},
+		"abort": {
+			"single_instance_allowed": "“Zbeacon IR”仅支持配置一次。不需要再添加一个。"
+		},
+		"error": {
+		}
+	},
+	"entity": {
+		"button": {
+			"button_permit": {
+				"name": "绑定遥控器"
+			},
+			"button_reset": {
+				"name": "重置设备"
+			}
+		},
+		"climate": {
+			"climate_irhvac": {
+				"name": "遥控器"
+			}
+		},
+		"sensor": {
+			"sensor_vendor": {
+				"name": "厂商"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"config": {
+		"step": {
+		},
+		"abort": {
+			"single_instance_allowed": "\"Zbeacon IR\" only allows one configuration. There's no need to add another one."
+		},
+		"error": {
+		}
+	},
+	"entity": {
+		"button": {
+			"button_permit": {
+				"name": "Bind Remote Control"
+			},
+			"button_reset": {
+				"name": "Reset the device"
+			}
+		},
+		"climate": {
+			"climate_irhvac": {
+				"name": "Remote Control"
+			}
+		},
+		"sensor": {
+			"sensor_vendor": {
+				"name": "Vendor"
+			}
+		}
+	}
+}

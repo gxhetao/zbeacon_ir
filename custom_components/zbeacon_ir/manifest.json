@@ -1,0 +1,15 @@
+{
+	"domain": "zbeacon_ir",
+	"name": "Zbeacon IR",
+	"codeowners": [
+		"@gxhetao"
+	],
+	"config_flow": true,
+	"dependencies": [
+		"mqtt"
+	],
+	"documentation": "https://github.com/gxhetao/zbeacon_ir",
+	"iot_class": "local_push",
+	"issue_tracker": "https://github.com/gxhetao/zbeacon_ir/issues",
+	"version": "1.1.2"
+}
